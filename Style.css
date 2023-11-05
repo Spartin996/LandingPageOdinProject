@@ -1,0 +1,133 @@
+/** DELETE THIS **/
+
+div {
+  border: 1px solid red;
+}
+/** DELETE ABOVE THIS **/
+
+* {
+  font-family: roboto, sans-serif;
+}
+
+nav, .header, .footer {
+  background-color: #1f2937;
+}
+
+h1, h3, h4, strong {
+  color: #f9faf8;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+nav strong {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 10px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #e5e7EB;
+  text-decoration: none;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  gap: 18px;
+}
+
+.ImgWrapper {
+  height: 300px;
+  width: auto;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.PrimaryImg {
+  height: 100%;
+  width: auto;
+}
+
+.header p {
+  font-size: 18px;
+  color: #e5e7EB
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button1:hover{
+  background-color: #3845f6;
+  color: #f9faf8;
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.information div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  text-align: center;
+}
+
+.information div img {
+  width: 200px;
+  height: auto;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
