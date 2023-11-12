@@ -1,8 +1,5 @@
 /** DELETE THIS **/
 
-div {
-  border: 1px solid red;
-}
 /** DELETE ABOVE THIS **/
 
 * {
@@ -59,6 +56,7 @@ nav a:hover{
   display: flex;
   justify-content: space-around;
   gap: 18px;
+  padding: 20px;
 }
 
 .ImgWrapper {
@@ -104,6 +102,7 @@ nav a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 
@@ -131,3 +130,40 @@ nav a:hover{
   border-radius: 10px;
 }
 
+
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e5e7EB;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.review p{
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.call {
+  background-color: #3882f6;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: #e5e5e5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #e5e5e5;
+}
